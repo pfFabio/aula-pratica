@@ -1,0 +1,63 @@
+.banner_inicial{
+    background-image: url("./assets/banner-inicial.jpg");
+    height: 325px;
+    border: 1px solid black;
+    font-size: x-large;
+    font-weight: bolder;
+    color: chartreuse;
+    justify-content: center;
+}
+
+.corpo{
+    display: flex; 
+    justify-content: center;
+    background-color: gray;
+}
+
+header{
+    width: 667px;
+}
+
+.txt1{
+    grid-area: txt1;
+}
+
+.img2{
+    grid-area: img2;
+
+}
+
+.txt2{
+    grid-area: txt2;
+}
+
+.img1{
+    grid-area: img1;
+}
+
+.img3{
+    grid-area: img3;
+}
+
+.projeto{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 100px 100px;
+    font-weight: bolder;
+    font-size: xx-large;
+    grid-template-areas: 
+        "txt1 img2 img3"
+        "img1 img2 txt2";
+    text-align: center;
+}
+
+
+.projeto>div>img{
+    height: 100%;
+}
+
+.trequinhos{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
